@@ -25,6 +25,7 @@ class Dashboard extends EventEmitter {
             faviconPath: options?.faviconPath || null,
             serverUrl: options?.serverUrl || null,
             inviteUrl: options?.inviteUrl || null,
+            customData: options?.customData || null
         };
 
         if (!client.isReady())
