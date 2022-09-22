@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const CheckAuth = (req, res, next) => req.session.user ? next() : res.status(401).redirect("/auth/login");
 const btoa = require("btoa");
-const fetch = require("node-fetch");
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 const Auth = Router()
