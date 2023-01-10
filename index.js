@@ -25,7 +25,8 @@ class Dashboard extends EventEmitter {
             faviconPath: options?.faviconPath || null,
             serverUrl: options?.serverUrl || null,
             inviteUrl: options?.inviteUrl || null,
-            customData: options?.customData || null
+            customData: options?.customData || null,
+			dir: options?.dir || __dirname
         };
 
         if (!client.isReady())
@@ -82,7 +83,8 @@ class Dashboard extends EventEmitter {
             }
         });
         if (this.details.faviconPath) this.app.use(favicon(this.details.faviconPath));
-        this.app.use(express.static(join(__dirname, "public")));
+        this.app.use(express.static(join(this.details.dir, "public")));
+			console.log(join(this.details.dir, "public"))
         this.app.use(express.json());
         this.app.use(express.urlencoded({ extended: false }));
 
