@@ -21,12 +21,14 @@ A dashboard is a very popular feature for Discord bots users as it allows them t
 ⚠ This package is only compatible with discord.js v13+
 
 ```js
-npm install discord-easy-dashboard
+npm install @frostzzone/discord-easy-dashboard
 ```
 
 ## Documentation
 
 To quickly understand how to use the module, you can read [Getting Started](/docs/gettingStarted.md).
+
+To see changes made by frostzzone, you can read [Changes](/docs/frostChanges.md)
 
 To create your own theme for the module, read the [Theming](/docs/THEMING.md) section
 
@@ -41,3 +43,4 @@ Example bot using this package and repl.it : https://replit.com/@SimonLeclere/Di
 ## Community themes :
 
 - RaphCosmo - By [Raph-exe](https://github.com/raph-exe) - https://www.npmjs.com/package/raphcosmo
+- SynthDash - By [frostzzone](https://github.com/frostzzone) - https://www.npmjs.com/package/synthdash
