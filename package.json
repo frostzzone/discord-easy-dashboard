@@ -1,6 +1,6 @@
 {
-    "name": "discord-easy-dashboard",
-    "version": "1.2.1",
+    "name": "@frostzzone/discord-easy-dashboard",
+    "version": "1.2.2",
     "description": "💻 Complete framework to facilitate the creation of dashboard using discord.js and express",
     "main": "index.js",
     "scripts": {
@@ -9,7 +9,7 @@
     "types": "./index.d.ts",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/SimonLeclere/discord-easy-dashboard.git"
+        "url": "git+https://github.com/frostzzone/discord-easy-dashboard.git"
     },
     "keywords": [
         "discord.js",
@@ -18,7 +18,7 @@
         "discord-dashboard",
         "discord-easy-dashboard"
     ],
-    "author": "Simon Leclère",
+    "author": "frostzzone",
     "license": "ISC",
     "dependencies": {
         "btoa": "^1.2.1",

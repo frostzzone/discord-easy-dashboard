@@ -5,7 +5,7 @@ This is a list of all cahnges to this package, it'll help you:
  - Know what's changed
  - Know how to use changes
 
-## Changed node-fetch to @replit/node-fetch
+## Changed node-fetch to cjs format
 
 ### Why was this a change?
  - It allows the package to be used in common javascript
